@@ -54,7 +54,7 @@ internal class NetSession: NSObject {
     
     // MARK: - Public Methods
     public func request<T: Decodable>(
-        request: NetRequest,
+        request: NetRequestBase,
         completingOnQueue queue: DispatchQueue = .main,
         completion: @escaping(_ response: NetRequestResponse<T>) -> Void) {
         
@@ -90,7 +90,7 @@ internal class NetSession: NSObject {
     }
     
     public func download<T>(
-        request: NetRequest,
+        request: NetRequestBase,
         completingOnQueue queue: DispatchQueue = .main,
         completion: @escaping(_ response: NetDownloadResponse<T>) -> Void) {
         

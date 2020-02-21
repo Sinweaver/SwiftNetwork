@@ -1,5 +1,5 @@
 //
-//  NetRequest.swift
+//  NetRequestEncodable.swift
 //  SwiftNetwork
 //
 //  The MIT License (MIT)
@@ -28,17 +28,17 @@
 import UIKit
 import Foundation
 
-public class NetRequest: NetRequestBase {
+public class NetRequestEncodable<T: Encodable>: NetRequestBase {
     
     // MARK: - Properties
-    fileprivate var bodyParameters: Any?
+    fileprivate var bodyParameters: T?
     
     // MARK: - Lifecycle
     public init(
         url: String,
         method: NetHTTPMethod = .get,
         urlParameters: [String: Any]? = nil,
-        bodyParameters: Any? = nil,
+        bodyParameters: T? = nil,
         parametersType: NetMIMEType = .formURL,
         allowedCharacters: CharacterSet = .urlQueryParametersAllowed,
         timeoutInterval: TimeInterval = defaultTimeoutInterval,
@@ -58,37 +58,6 @@ public class NetRequest: NetRequestBase {
     
     // MARK: - Internal Methods
     internal override func getHttpBody() -> Data? {
-        var body: Data? = nil
-        
-        if parametersType == .json {
-            if let bodyDictionary: [String: Any] = bodyParameters as? [String : Any] {
-                body = NetJSONParameterEncoder().encode(parameters: bodyDictionary)
-            }
-        }
-        else if parametersType == .formURL {
-            if let bodyDictionary: [String: Any] = bodyParameters as? [String : Any] {
-                if let parameters: String = NetXFormParameterEncoder().encode(
-                    parameters: bodyDictionary) {
-                    body = Data(parameters.utf8)
-                }
-            }
-        }
-        else if parametersType == .png {
-            if let bodyImage: UIImage = bodyParameters as? UIImage {
-                body = bodyImage.pngData()
-            }
-        }
-        else if parametersType == .text {
-            if let bodyString: String = bodyParameters as? String {
-                body = Data(bodyString.utf8)
-            }
-        }
-        else if parametersType == .form {
-            if let bodyData: Data = bodyParameters as? Data {
-                body = bodyData
-            }
-        }
-        
-        return body
+        return NetJSONParameterEncoder().encode(parameters: bodyParameters)
     }
 }

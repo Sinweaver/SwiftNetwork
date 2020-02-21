@@ -30,7 +30,7 @@ import Foundation
 public class Net {
     
     public class func request<T: Decodable>(
-        request: NetRequest,
+        request: NetRequestBase,
         completingOnQueue queue: DispatchQueue = .main,
         completion: @escaping(_ response: NetRequestResponse<T>) -> Void) {
         
@@ -39,7 +39,7 @@ public class Net {
     }
     
    public class func download<T>(
-        request: NetRequest,
+        request: NetRequestBase,
         completingOnQueue queue: DispatchQueue = .main,
         completion: @escaping(_ response: NetDownloadResponse<T>) -> Void) {
         
