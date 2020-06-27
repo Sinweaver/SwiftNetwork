@@ -7,53 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		118B3C3E24A6E96C00CBBA5C /* CharacterSet+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* CharacterSet+Extension.swift */; };
-		118B3C3F24A6E96C00CBBA5C /* NetDownloadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NetDownloadResponse.swift */; };
-		118B3C4024A6E96C00CBBA5C /* NetError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* NetError.swift */; };
-		118B3C4124A6E96C00CBBA5C /* NetHTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* NetHTTPHeaders.swift */; };
-		118B3C4224A6E96C00CBBA5C /* NetHTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* NetHTTPMethod.swift */; };
-		118B3C4324A6E96C00CBBA5C /* NetMIMEType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* NetMIMEType.swift */; };
-		118B3C4424A6E96C00CBBA5C /* NetParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* NetParameterEncoder.swift */; };
-		118B3C4524A6E96C00CBBA5C /* NetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* NetRequest.swift */; };
-		118B3C4624A6E96C00CBBA5C /* NetRequestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* NetRequestBase.swift */; };
-		118B3C4724A6E96C00CBBA5C /* NetRequestEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* NetRequestEncodable.swift */; };
-		118B3C4824A6E96C00CBBA5C /* NetRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* NetRequestResponse.swift */; };
-		118B3C4924A6E96C00CBBA5C /* NetSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* NetSession.swift */; };
-		118B3C4A24A6E96C00CBBA5C /* SwiftNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* SwiftNetwork.swift */; };
-		OBJ_31 /* CharacterSet+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* CharacterSet+Extension.swift */; };
-		OBJ_32 /* NetDownloadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NetDownloadResponse.swift */; };
-		OBJ_33 /* NetError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* NetError.swift */; };
-		OBJ_34 /* NetHTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* NetHTTPHeaders.swift */; };
-		OBJ_35 /* NetHTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* NetHTTPMethod.swift */; };
-		OBJ_36 /* NetMIMEType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* NetMIMEType.swift */; };
-		OBJ_37 /* NetParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* NetParameterEncoder.swift */; };
-		OBJ_38 /* NetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* NetRequest.swift */; };
-		OBJ_39 /* NetRequestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* NetRequestBase.swift */; };
-		OBJ_40 /* NetRequestEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* NetRequestEncodable.swift */; };
-		OBJ_41 /* NetRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* NetRequestResponse.swift */; };
-		OBJ_42 /* NetSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* NetSession.swift */; };
-		OBJ_43 /* SwiftNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* SwiftNetwork.swift */; };
+		11DF745E24A791540033E21F /* NetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745124A791540033E21F /* NetRequest.swift */; };
+		11DF745F24A791540033E21F /* NetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745124A791540033E21F /* NetRequest.swift */; };
+		11DF746024A791540033E21F /* NetHTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745224A791540033E21F /* NetHTTPHeaders.swift */; };
+		11DF746124A791540033E21F /* NetHTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745224A791540033E21F /* NetHTTPHeaders.swift */; };
+		11DF746224A791540033E21F /* NetParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745324A791540033E21F /* NetParameterEncoder.swift */; };
+		11DF746324A791540033E21F /* NetParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745324A791540033E21F /* NetParameterEncoder.swift */; };
+		11DF746424A791540033E21F /* NetError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745424A791540033E21F /* NetError.swift */; };
+		11DF746524A791540033E21F /* NetError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745424A791540033E21F /* NetError.swift */; };
+		11DF746624A791540033E21F /* NetRequestEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745524A791540033E21F /* NetRequestEncodable.swift */; };
+		11DF746724A791540033E21F /* NetRequestEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745524A791540033E21F /* NetRequestEncodable.swift */; };
+		11DF746824A791540033E21F /* SwiftNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745624A791540033E21F /* SwiftNetwork.swift */; };
+		11DF746924A791540033E21F /* SwiftNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745624A791540033E21F /* SwiftNetwork.swift */; };
+		11DF746A24A791540033E21F /* NetDownloadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745724A791540033E21F /* NetDownloadResponse.swift */; };
+		11DF746B24A791540033E21F /* NetDownloadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745724A791540033E21F /* NetDownloadResponse.swift */; };
+		11DF746C24A791540033E21F /* NetRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745824A791540033E21F /* NetRequestResponse.swift */; };
+		11DF746D24A791540033E21F /* NetRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745824A791540033E21F /* NetRequestResponse.swift */; };
+		11DF746E24A791540033E21F /* NetHTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745924A791540033E21F /* NetHTTPMethod.swift */; };
+		11DF746F24A791540033E21F /* NetHTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745924A791540033E21F /* NetHTTPMethod.swift */; };
+		11DF747024A791540033E21F /* NetRequestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745A24A791540033E21F /* NetRequestBase.swift */; };
+		11DF747124A791540033E21F /* NetRequestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745A24A791540033E21F /* NetRequestBase.swift */; };
+		11DF747224A791540033E21F /* NetSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745B24A791540033E21F /* NetSession.swift */; };
+		11DF747324A791540033E21F /* NetSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745B24A791540033E21F /* NetSession.swift */; };
+		11DF747424A791540033E21F /* NetMIMEType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745C24A791540033E21F /* NetMIMEType.swift */; };
+		11DF747524A791540033E21F /* NetMIMEType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745C24A791540033E21F /* NetMIMEType.swift */; };
+		11DF747624A791540033E21F /* CharacterSet+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745D24A791540033E21F /* CharacterSet+Extension.swift */; };
+		11DF747724A791540033E21F /* CharacterSet+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF745D24A791540033E21F /* CharacterSet+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		118B3C4F24A6E96C00CBBA5C /* SwiftNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		118B3C5024A6E96C00CBBA5C /* SwiftNetwork.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = SwiftNetwork.plist; path = /Users/alexander/sourcetree/SwiftNetwork/Sources/SwiftNetwork.plist; sourceTree = "<absolute>"; };
-		OBJ_10 /* NetError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetError.swift; sourceTree = "<group>"; };
-		OBJ_11 /* NetHTTPHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetHTTPHeaders.swift; sourceTree = "<group>"; };
-		OBJ_12 /* NetHTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetHTTPMethod.swift; sourceTree = "<group>"; };
-		OBJ_13 /* NetMIMEType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetMIMEType.swift; sourceTree = "<group>"; };
-		OBJ_14 /* NetParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetParameterEncoder.swift; sourceTree = "<group>"; };
-		OBJ_15 /* NetRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetRequest.swift; sourceTree = "<group>"; };
-		OBJ_16 /* NetRequestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetRequestBase.swift; sourceTree = "<group>"; };
-		OBJ_17 /* NetRequestEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetRequestEncodable.swift; sourceTree = "<group>"; };
-		OBJ_18 /* NetRequestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetRequestResponse.swift; sourceTree = "<group>"; };
-		OBJ_19 /* NetSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetSession.swift; sourceTree = "<group>"; };
-		OBJ_20 /* SwiftNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNetwork.swift; sourceTree = "<group>"; };
+		11AD8B2124A795210044ECD9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11DF745124A791540033E21F /* NetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetRequest.swift; sourceTree = "<group>"; };
+		11DF745224A791540033E21F /* NetHTTPHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetHTTPHeaders.swift; sourceTree = "<group>"; };
+		11DF745324A791540033E21F /* NetParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetParameterEncoder.swift; sourceTree = "<group>"; };
+		11DF745424A791540033E21F /* NetError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetError.swift; sourceTree = "<group>"; };
+		11DF745524A791540033E21F /* NetRequestEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetRequestEncodable.swift; sourceTree = "<group>"; };
+		11DF745624A791540033E21F /* SwiftNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNetwork.swift; sourceTree = "<group>"; };
+		11DF745724A791540033E21F /* NetDownloadResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetDownloadResponse.swift; sourceTree = "<group>"; };
+		11DF745824A791540033E21F /* NetRequestResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetRequestResponse.swift; sourceTree = "<group>"; };
+		11DF745924A791540033E21F /* NetHTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetHTTPMethod.swift; sourceTree = "<group>"; };
+		11DF745A24A791540033E21F /* NetRequestBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetRequestBase.swift; sourceTree = "<group>"; };
+		11DF745B24A791540033E21F /* NetSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetSession.swift; sourceTree = "<group>"; };
+		11DF745C24A791540033E21F /* NetMIMEType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetMIMEType.swift; sourceTree = "<group>"; };
+		11DF745D24A791540033E21F /* CharacterSet+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CharacterSet+Extension.swift"; sourceTree = "<group>"; };
 		OBJ_24 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		OBJ_25 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_8 /* CharacterSet+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharacterSet+Extension.swift"; sourceTree = "<group>"; };
-		OBJ_9 /* NetDownloadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetDownloadResponse.swift; sourceTree = "<group>"; };
 		"SwiftNetwork::SwiftNetwork::Product" /* SwiftNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -75,6 +75,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11DF745024A791540033E21F /* SwiftNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				11AD8B2124A795210044ECD9 /* Info.plist */,
+				11DF745124A791540033E21F /* NetRequest.swift */,
+				11DF745224A791540033E21F /* NetHTTPHeaders.swift */,
+				11DF745324A791540033E21F /* NetParameterEncoder.swift */,
+				11DF745424A791540033E21F /* NetError.swift */,
+				11DF745524A791540033E21F /* NetRequestEncodable.swift */,
+				11DF745624A791540033E21F /* SwiftNetwork.swift */,
+				11DF745724A791540033E21F /* NetDownloadResponse.swift */,
+				11DF745824A791540033E21F /* NetRequestResponse.swift */,
+				11DF745924A791540033E21F /* NetHTTPMethod.swift */,
+				11DF745A24A791540033E21F /* NetRequestBase.swift */,
+				11DF745B24A791540033E21F /* NetSession.swift */,
+				11DF745C24A791540033E21F /* NetMIMEType.swift */,
+				11DF745D24A791540033E21F /* CharacterSet+Extension.swift */,
+			);
+			path = SwiftNetwork;
+			sourceTree = "<group>";
+		};
 		OBJ_21 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,20 +127,7 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				118B3C5024A6E96C00CBBA5C /* SwiftNetwork.plist */,
-				OBJ_8 /* CharacterSet+Extension.swift */,
-				OBJ_9 /* NetDownloadResponse.swift */,
-				OBJ_10 /* NetError.swift */,
-				OBJ_11 /* NetHTTPHeaders.swift */,
-				OBJ_12 /* NetHTTPMethod.swift */,
-				OBJ_13 /* NetMIMEType.swift */,
-				OBJ_14 /* NetParameterEncoder.swift */,
-				OBJ_15 /* NetRequest.swift */,
-				OBJ_16 /* NetRequestBase.swift */,
-				OBJ_17 /* NetRequestEncodable.swift */,
-				OBJ_18 /* NetRequestResponse.swift */,
-				OBJ_19 /* NetSession.swift */,
-				OBJ_20 /* SwiftNetwork.swift */,
+				11DF745024A791540033E21F /* SwiftNetwork */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -191,19 +199,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				118B3C3E24A6E96C00CBBA5C /* CharacterSet+Extension.swift in Sources */,
-				118B3C3F24A6E96C00CBBA5C /* NetDownloadResponse.swift in Sources */,
-				118B3C4024A6E96C00CBBA5C /* NetError.swift in Sources */,
-				118B3C4124A6E96C00CBBA5C /* NetHTTPHeaders.swift in Sources */,
-				118B3C4224A6E96C00CBBA5C /* NetHTTPMethod.swift in Sources */,
-				118B3C4324A6E96C00CBBA5C /* NetMIMEType.swift in Sources */,
-				118B3C4424A6E96C00CBBA5C /* NetParameterEncoder.swift in Sources */,
-				118B3C4524A6E96C00CBBA5C /* NetRequest.swift in Sources */,
-				118B3C4624A6E96C00CBBA5C /* NetRequestBase.swift in Sources */,
-				118B3C4724A6E96C00CBBA5C /* NetRequestEncodable.swift in Sources */,
-				118B3C4824A6E96C00CBBA5C /* NetRequestResponse.swift in Sources */,
-				118B3C4924A6E96C00CBBA5C /* NetSession.swift in Sources */,
-				118B3C4A24A6E96C00CBBA5C /* SwiftNetwork.swift in Sources */,
+				11DF746924A791540033E21F /* SwiftNetwork.swift in Sources */,
+				11DF747324A791540033E21F /* NetSession.swift in Sources */,
+				11DF746F24A791540033E21F /* NetHTTPMethod.swift in Sources */,
+				11DF746324A791540033E21F /* NetParameterEncoder.swift in Sources */,
+				11DF746D24A791540033E21F /* NetRequestResponse.swift in Sources */,
+				11DF746124A791540033E21F /* NetHTTPHeaders.swift in Sources */,
+				11DF746B24A791540033E21F /* NetDownloadResponse.swift in Sources */,
+				11DF747724A791540033E21F /* CharacterSet+Extension.swift in Sources */,
+				11DF746724A791540033E21F /* NetRequestEncodable.swift in Sources */,
+				11DF746524A791540033E21F /* NetError.swift in Sources */,
+				11DF747524A791540033E21F /* NetMIMEType.swift in Sources */,
+				11DF747124A791540033E21F /* NetRequestBase.swift in Sources */,
+				11DF745F24A791540033E21F /* NetRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,19 +219,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_31 /* CharacterSet+Extension.swift in Sources */,
-				OBJ_32 /* NetDownloadResponse.swift in Sources */,
-				OBJ_33 /* NetError.swift in Sources */,
-				OBJ_34 /* NetHTTPHeaders.swift in Sources */,
-				OBJ_35 /* NetHTTPMethod.swift in Sources */,
-				OBJ_36 /* NetMIMEType.swift in Sources */,
-				OBJ_37 /* NetParameterEncoder.swift in Sources */,
-				OBJ_38 /* NetRequest.swift in Sources */,
-				OBJ_39 /* NetRequestBase.swift in Sources */,
-				OBJ_40 /* NetRequestEncodable.swift in Sources */,
-				OBJ_41 /* NetRequestResponse.swift in Sources */,
-				OBJ_42 /* NetSession.swift in Sources */,
-				OBJ_43 /* SwiftNetwork.swift in Sources */,
+				11DF746824A791540033E21F /* SwiftNetwork.swift in Sources */,
+				11DF747224A791540033E21F /* NetSession.swift in Sources */,
+				11DF746E24A791540033E21F /* NetHTTPMethod.swift in Sources */,
+				11DF746224A791540033E21F /* NetParameterEncoder.swift in Sources */,
+				11DF746C24A791540033E21F /* NetRequestResponse.swift in Sources */,
+				11DF746024A791540033E21F /* NetHTTPHeaders.swift in Sources */,
+				11DF746A24A791540033E21F /* NetDownloadResponse.swift in Sources */,
+				11DF747624A791540033E21F /* CharacterSet+Extension.swift in Sources */,
+				11DF746624A791540033E21F /* NetRequestEncodable.swift in Sources */,
+				11DF746424A791540033E21F /* NetError.swift in Sources */,
+				11DF747424A791540033E21F /* NetMIMEType.swift in Sources */,
+				11DF747024A791540033E21F /* NetRequestBase.swift in Sources */,
+				11DF745E24A791540033E21F /* NetRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +250,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftNetwork.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftNetwork/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = "";
@@ -279,7 +287,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftNetwork.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftNetwork/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = "";
@@ -316,7 +324,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftNetwork.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftNetwork/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = "";
@@ -353,7 +361,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftNetwork.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftNetwork/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = "";
