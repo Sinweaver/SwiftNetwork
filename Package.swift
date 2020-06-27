@@ -16,7 +16,6 @@ let package = Package(
     targets: [
         .target(
             name: "SwiftNetwork",
-            dependencies: [],
 	    path: "Sources")
     ],
     swiftLanguageVersions: [.v5]
