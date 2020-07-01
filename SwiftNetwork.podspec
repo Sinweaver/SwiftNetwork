@@ -14,6 +14,9 @@ Pod::Spec.new do |s|
   s.swift_version = '5.2'
 
   s.source_files   = 'Sources/**/*'
+  s.public_header_files = 'Sources/**/*.h'
+  s.exclude_files = "Sources/**/Info.plist"
+
   s.requires_arc   = true
 
   s.frameworks     = 'Foundation'

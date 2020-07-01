@@ -33,8 +33,10 @@
 		113F4CA524AC986A0021E55A /* NetMIMEType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F4C8824AC98290021E55A /* NetMIMEType.swift */; };
 		113F4CA624AC986A0021E55A /* NetRequestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F4C8624AC98290021E55A /* NetRequestBase.swift */; };
 		113F4CA724AC986A0021E55A /* NetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F4C7D24AC98290021E55A /* NetRequest.swift */; };
-		117041F724ACA89600A246B3 /* SwiftNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 117041F524ACA89600A246B3 /* SwiftNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117041F824ACA89600A246B3 /* SwiftNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 117041F524ACA89600A246B3 /* SwiftNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11F366B324ACB72100E46014 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F366B124ACB72100E46014 /* Info.plist */; };
+		11F366B424ACB72100E46014 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F366B124ACB72100E46014 /* Info.plist */; };
+		11F366B524ACB72100E46014 /* SwiftNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F366B224ACB72100E46014 /* SwiftNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11F366B624ACB72100E46014 /* SwiftNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F366B224ACB72100E46014 /* SwiftNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,8 +55,8 @@
 		113F4C8824AC98290021E55A /* NetMIMEType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetMIMEType.swift; sourceTree = "<group>"; };
 		113F4C8924AC98290021E55A /* CharacterSet+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CharacterSet+Extension.swift"; sourceTree = "<group>"; };
 		113F4CAD24AC986A0021E55A /* SwiftNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		117041F524ACA89600A246B3 /* SwiftNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftNetwork.h; sourceTree = "<group>"; };
-		117041F624ACA89600A246B3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F366B124ACB72100E46014 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F366B224ACB72100E46014 /* SwiftNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftNetwork.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,6 @@
 		113F4C7B24AC98290021E55A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				117041F424ACA89600A246B3 /* Supporting Files */,
 				113F4C7C24AC98290021E55A /* SwiftNetwork */,
 			);
 			path = Sources;
@@ -104,6 +105,8 @@
 		113F4C7C24AC98290021E55A /* SwiftNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				11F366B124ACB72100E46014 /* Info.plist */,
+				11F366B224ACB72100E46014 /* SwiftNetwork.h */,
 				113F4C7D24AC98290021E55A /* NetRequest.swift */,
 				113F4C7E24AC98290021E55A /* NetHTTPHeaders.swift */,
 				113F4C7F24AC98290021E55A /* NetParameterEncoder.swift */,
@@ -121,15 +124,6 @@
 			path = SwiftNetwork;
 			sourceTree = "<group>";
 		};
-		117041F424ACA89600A246B3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				117041F524ACA89600A246B3 /* SwiftNetwork.h */,
-				117041F624ACA89600A246B3 /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -137,7 +131,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				117041F724ACA89600A246B3 /* SwiftNetwork.h in Headers */,
+				11F366B524ACB72100E46014 /* SwiftNetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +139,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				117041F824ACA89600A246B3 /* SwiftNetwork.h in Headers */,
+				11F366B624ACB72100E46014 /* SwiftNetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F366B324ACB72100E46014 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F366B424ACB72100E46014 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +408,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftNetwork/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -444,7 +440,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftNetwork/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +472,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftNetwork/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -507,7 +503,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftNetwork/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
