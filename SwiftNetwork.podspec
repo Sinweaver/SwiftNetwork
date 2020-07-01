@@ -6,14 +6,15 @@ Pod::Spec.new do |s|
   s.summary        = 'Lightweight network manager.'
   s.homepage       = 'https://github.com/Sinweaver/SwiftNetwork'
   s.authors        = { 'Alexander Borovikov' => 'alexander.borovikov@outlook.com' }
-  s.source         = { :git => 'https://github.com/Sinweaver/SwiftNetwork.git', :tag => s.version }
+  s.source         = { :git => 'https://github.com/Sinweaver/SwiftNetwork.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
   s.tvos.deployment_target = '10.0'
 
-  s.swift_versions = ['5.1', '5.2']
+  s.swift_version = '5.1'
 
   s.source_files   = 'Sources/**/*'
+  s.requires_arc   = true
 
   s.frameworks     = 'Foundation'
 end
