@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name           = 'SwiftNetwork'
-  s.version        = '1.0.4'
+  s.version        = '1.0.5'
   s.license        = { :type => 'MIT' }
   s.summary        = 'Lightweight network manager.'
   s.homepage       = 'https://github.com/Sinweaver/SwiftNetwork'
